@@ -19,7 +19,7 @@ Subsequent runs:
 
 ## Commands
 
-Right now, the only "mode" is `+COMMAND <ARG1> <ARG2> ... <ARGN>` aka a simple string.  Default port is 12345.
+Right now, the only "mode"/datatype is a simple string of the format `+COMMAND <ARG1> <ARG2> ... <ARGN>`.  Default port is 12345.
 
 ### GET <key>
 
