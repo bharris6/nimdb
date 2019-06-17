@@ -21,7 +21,7 @@ Subsequent runs:
 
 Right now, the only "mode"/datatype is a simple string of the format `+COMMAND <ARG1> <ARG2> ... <ARGN>`.  Default port is 12345.
 
-### GET <key>
+### GET \<key\>
 
 Get a value for a specific key.  Returns the key on success, "KO" on failure.
 
