@@ -23,19 +23,19 @@ Right now, the only "mode"/datatype is a simple string of the format `+COMMAND <
 
 ### GET \<key\>
 
-Get a value for a specific key.  Returns the key on success, "KO" on failure.
+Get a value for a specific key.  Returns the key on success, `KO` on failure.
 
 ### SET \<key\> \<value\>
   
-Sets a value for a specific key.  Returns "OK" on success, "KO" on failure.
+Sets a value for a specific key.  Returns `OK` on success, `KO` on failure.
 
 ### MGET \<key1\> \<key2\> ... \<keyn\>
   
-Gets values for all provided keys.  Returns space-separated string "<value1> <value2> ... <valuen>"
+Gets values for all provided keys.  Returns space-separated string `<value1> <value2> ... <valuen>`
   
 ### MSET \<key1\> \<value1\> \<key2\> \<value2\> ... \<keyn\> \<valuen\>
   
-Sets values for all provided keys.  Returns "OK" on success, "KO" on failure.
+Sets values for all provided keys.  Returns `OK` on success, `KO` on failure.
 
 ### FLUSH
 
